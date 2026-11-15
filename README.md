@@ -126,7 +126,7 @@ Expected: the alert appears in Wazuh, the log shows a successful execution, and 
    ```
 
 
-The ping does not succeed ("could not find host"): the domain is no longer reachable from this machine. The log excerpt below the command is the actual proof of mitigation.
+The ping does not succeed ("could not find host"): the domain is no longer reachable from this machine. Attempting to ping the domain will fail, confirming that the mechanism is working as expected.  
 
 <img width="1139" height="55" alt="image" src="https://github.com/user-attachments/assets/857b4d2d-0aa2-4f62-8d4b-3d8ac9916950" />
 
