@@ -101,7 +101,7 @@ Restart-Service WazuhSvc
 
 To enable wazuh to execute the python script in response to MISP alerts, modify the configuration files in wazuh manager:
 
-1. Add the configuration from [`config/ossec.conf`](config/ossec.conf) to `/var/ossec/etc/ossec.conf`
+1. Add the configuration from [`config/ossec.conf`](config/ossec.conf) to `/var/ossec/etc/ossec.conf`(On the monitoring center machine (Ubuntu))
 2. Add the rules from [`config/local_rules.xml`](config/local_rules.xml) to `/var/ossec/etc/rules/local_rules.xml`
 3. Restart the manager:
    
@@ -175,4 +175,4 @@ The MISP instance holds the events and attributes (IP, domain, SHA256) that feed
 
 
 
-Authored by **Zakaria MAARAK**: [GitHub](https://github.com/ZakariaMAARAK) · [LinkedIn](https://linkedin.com/in/zakaria-maarak)
+Authored by [**Zakaria MAARAK**]: [GitHub](https://github.com/ZakariaMAARAK) · [LinkedIn](https://linkedin.com/in/zakaria-maarak)
