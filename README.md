@@ -145,7 +145,7 @@ How to read it:
 
 1. **Active response started**: `wazuh-execd` launched `misp-ar.exe`.
 2. **Raw input received**: the Wazuh manager's JSON alert arrived on `stdin` (`"command":"add"`).
-3. **Parsed MISP data**: the script extracted the IoC type (`domain`) and value (`office.oiqezet.com`).
+3. **Parsed MISP data**: the script extracted the IoC type (`Domain`) and value (`office.oiqezet.com`).
 4. **Successfully blocked domain**: the entry was written to the `hosts` file.
 5. **Active response completed**: clean exit. From parsing to completion took roughly **4 ms**.
 
