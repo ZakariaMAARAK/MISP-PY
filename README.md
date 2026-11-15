@@ -159,7 +159,7 @@ The surrounding events give the full picture of what happened on the endpoint:
 
 - **Sysmon Event 22 (DNS query)**: the DNS lookup caused by the `ping`, which is what Wazuh correlates with the MISP IoC.
 - **Sysmon Events 1, 10 and 7**: process creation, process access and image load around the execution.
-- **Highlighted lower rows**: `misp-ar.exe` loading runtime DLLs from a `_MEI…` folder in `C:\Windows\Temp`. This is normal behavior for a `--onefile` PyInstaller executable, which unpacks itself to a temporary folder at launch. It is worth knowing because security rules can flag it as *"executable loaded from the Temp directory"*, so expect (and tune for) this kind of alert.
+- **Highlighted lower rows**: `misp-ar.exe` loading runtime DLLs from a `_MEI3242` folder in `C:\Windows\Temp`. This is normal behavior for a `--onefile` PyInstaller executable, which unpacks itself to a temporary folder at launch. It is worth knowing because security rules can flag it as *"executable loaded from the Temp directory"*, so expect (and tune for) this kind of alert.
 
 ###  The MISP events dashboard:
 
