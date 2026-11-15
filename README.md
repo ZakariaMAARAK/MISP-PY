@@ -141,15 +141,8 @@ After restarting the Wazuh agent ----> the new executable is loaded ----> `activ
 <img width="883" height="71" alt="image" src="https://github.com/user-attachments/assets/aca6a3ec-8001-48c1-8763-c75705c08d89" />
 
 
-How to read it:
 
-1. **Active response started**: `wazuh-execd` launched `misp-ar.exe`.
-2. **Raw input received**: the Wazuh manager's JSON alert arrived on `stdin` (`"command":"add"`).
-3. **Parsed MISP data**: the script extracted the IoC type (`Domain`) and value (`office.oiqezet.com`).
-4. **Successfully blocked domain**: the entry was written to the `hosts` file.
-5. **Active response completed**: clean exit. From parsing to completion took roughly **4 ms**.
-
-The same flow applies to IP addresses (firewall rule) and SHA256 hashes (file removal).
+The same flow applies to IP addresse (firewall rule) and SHA256 hashe (file removal).
 
 ###  Alerts in the Wazuh dashboard:
 
