@@ -47,9 +47,6 @@ Every action and error is written to an audit log (`active-responses.log`).
 
 <img width="3960" height="1078" alt="image" src="https://github.com/user-attachments/assets/d1dceeab-b1c0-4c0e-a9ed-40e7bc3ebfc4" />
 
-The diagram covers both the **build/deploy pipeline** (Python script → PyInstaller → `.exe` → agent) and the **runtime detection/response flow**.
-
-
 
 ##  Project Files :
 
