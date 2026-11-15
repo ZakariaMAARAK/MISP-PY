@@ -149,7 +149,7 @@ How to read it:
 
 The same flow applies to IP addresses (firewall rule) and SHA256 hashes (file removal).
 
-###  Alert in the Wazuh dashboard
+###  Alerts in the Wazuh dashboard:
 
 <img width="1372" height="342" alt="44444" src="https://github.com/user-attachments/assets/3b26c431-89d2-4c51-abaf-df3109cca614" />
 
