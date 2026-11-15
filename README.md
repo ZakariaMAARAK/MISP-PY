@@ -140,7 +140,7 @@ After restarting the Wazuh agent ----> the new executable is loaded ----> `activ
 
 <img width="883" height="71" alt="image" src="https://github.com/user-attachments/assets/aca6a3ec-8001-48c1-8763-c75705c08d89" />
 
-> 📌**Note:** You can find the **active-responses.log** file on:   `\Program Files (x86)\ossec-agent\active-response` path.
+> 📌**Note:** You can find the **active-responses.log** file on:   `C:\Program Files (x86)\ossec-agent\active-response` path.
 
 The same flow applies to IP addresse (firewall rule) and SHA256 hashe (file removal).
 
