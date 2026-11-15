@@ -41,7 +41,7 @@ Every action and error is written to an audit log (`active-responses.log`).
 
 • PyInstaller
 
-• PowerShell
+• PowerShell (Admin mode)
 
 ## Workflow :
 
