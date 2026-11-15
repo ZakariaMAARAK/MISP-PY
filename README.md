@@ -31,9 +31,9 @@ Every action and error is written to an audit log (`active-responses.log`).
 
 ## Tools needed :
 
-• Wazuh manager
+• Ubuntu (Monitoring Center machine) with Wazuh manager installed
 
-• Wazuh agent (must be installed on the Windows Endpoint)
+• Windows server/11 with wazuh agent installed
 
 • MISP
 
