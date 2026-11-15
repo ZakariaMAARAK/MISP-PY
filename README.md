@@ -142,7 +142,7 @@ After restarting the Wazuh agent ----> the new executable is loaded ----> `activ
 
 > 📌**Note:** You can find the **active-responses.log** file on:   `C:\Program Files (x86)\ossec-agent\active-response` path.
 
-The same flow applies to IP addresse (firewall rule) and SHA256 hashe (file removal).
+The same flow applies to the IP address (firewall rule) and SHA256 hashe (file removal).
 
 ###  Alerts in the Wazuh dashboard:
 
