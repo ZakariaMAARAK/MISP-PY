@@ -57,7 +57,7 @@ Every action and error is written to an audit log (`active-responses.log`).
 | [`config/ossec.conf`](config/ossec.conf) | Wazuh manager `<command>` and `<active-response>` configuration |
 
 
-## Lab Walkthrough & Setup :
+## Lab & Setup :
 
 ### Endpoint (Windows agent): Building the executable with PyInstaller
 
