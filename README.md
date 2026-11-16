@@ -37,7 +37,7 @@ Every action and error is written to an audit log (`active-responses.log`).
 
 • MISP
 
-• Python (Ensure Python (3.x) is installed on your system + Create a Virtual Environment)
+• Python (Ensure Python (3.x) is installed on your system)
 
 • PyInstaller
 
